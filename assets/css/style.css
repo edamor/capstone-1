@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+html, body {
+   overflow-x: hidden;
+   
+}
+
+#mainWrapper {
+   height: 100%;
+   /* background-color: yellow; */
+   padding: 0;
+}
+
+#homeBanner {
+   background-image: url('../images/bg1.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   align-content: center;
+   overflow: hidden;
+}
+
+.jumbotron {
+   background: rgba(255,255,255, 0.75);
+   width: 300px;
+   border-radius: 0;
+}
+
+#heading1 {
+   /* border: 1px solid;
+   border-color: rgba(0, 0, 0, 0.5); */
+}
+
+#myNavbar {
+   position: relative;
+   background-color: #C4BDB7;
+}
+
+
+
+#first {
+   height: 100vh;
+}
+
+#firstHeader {
+   padding-top: 20px;
+}
+
+#cardRow {
+   height: 350px;
+}
+
+#card1 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c1.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: #939393;
+   transition: 0.5s;
+}
+
+#card1:hover {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c1.png');
+   color: white;
+}
+
+#card2 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: #939393;
+   transition: 0.5s;
+}
+
+#card2:hover {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c2.png');
+   color: white;
+}
+
+.card-body {
+
+   height: 100%;
+}
+
+#second {
+   /* height: 100vh; */
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg2.jpg');
+   background-size: cover;
+   background-position: center; */
+   position: relative;
+   
+}
+
+.textWrap {
+   /* background: #000; */
+   
+}
+
+#gmap {
+   height: 100%;
+   width: 100%;
+}
+
+footer.row {
+   background-color: #C4BDB7;
+}
+
+.horList {
+   display: inline;
+}
+
+#galNavbar {
+   background-color: #C4BDB7;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
+}
+
+#gallery {
+   padding-top: 64px;
+}
+
+#artists {
+   padding-top: 64px;
+   height: 100vh;
+}
+
+#contactUs {
+   padding-top: 68px;
+   position: relative;
+}
+
+li.active {
+   font-weight: 600;
+}
+
+
+
+
+@media only screen and (min-width: 750px) {
+   #second {
+      height: 100vh;
+   }
+}
