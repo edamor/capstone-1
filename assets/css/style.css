@@ -58,7 +58,7 @@ html, body {
 }
 
 #card1 {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c1.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c1.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -67,12 +67,12 @@ html, body {
 }
 
 #card1:hover {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c1.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c1.jpg');
    color: white;
 }
 
 #card2 {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c2.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c2.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -81,7 +81,7 @@ html, body {
 }
 
 #card2:hover {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c2.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c2.jpg');
    color: white;
 }
 
