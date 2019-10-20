@@ -1,10 +1,8 @@
 
-let navPos = document.querySelector('#myNavbar').offsetTop;
-
 let mainBody = document.querySelector('#first');
-let pTop = parseFloat(window.getComputedStyle(mainBody).getPropertyValue('padding-top'))
-   + 64;
+let contactSection = document.querySelector('#contactUs');
 
+let navPos = document.querySelector('#myNavbar').offsetTop;
 let contactPos = document.querySelector('#contactUs').offsetTop;
 
 window.addEventListener('scroll', e => {
@@ -35,6 +33,12 @@ window.addEventListener('scroll', e => {
 
 
 
-// contactSection.style.top = 64 + 'px';
+
+let scrollToFirst = () => {
+   mainBody.scrollIntoView({behavior: 'smooth'});
+}
 
 
+let scrollToContact = () => {
+   contactSection.scrollIntoView({behavior: 'smooth'})
+}
