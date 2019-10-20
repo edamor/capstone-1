@@ -17,7 +17,7 @@ html, body {
 }
 
 #homeBanner {
-   background-image: url('../images/bg1.jpg');
+   background-image: url('../images/bg1.jpeg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -36,6 +36,12 @@ html, body {
 #heading1 {
    /* border: 1px solid;
    border-color: rgba(0, 0, 0, 0.5); */
+}
+
+i.fa-angle-double-down {
+   color: #000;
+   text-shadow: 2px 2px #fff;
+   cursor: pointer;
 }
 
 #myNavbar {
@@ -58,7 +64,7 @@ html, body {
 }
 
 #card1 {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c1.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c1.jpeg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -67,12 +73,12 @@ html, body {
 }
 
 #card1:hover {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c1.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c1.jpeg');
    color: white;
 }
 
 #card2 {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c2.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/c2.jpeg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -81,7 +87,7 @@ html, body {
 }
 
 #card2:hover {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c2.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/c2.jpeg');
    color: white;
 }
 
